@@ -26,7 +26,16 @@ li {
     padding-left: 2em;
 }
 
+.navigator-lis-right {
+    float: right;
+}
+
+.navigator-lis-left {
+    float: left;
+}
+
 .logo {
-    position: relative;
     background-color: aqua;
+    float: left;
+    vertical-align: center;
 }
