@@ -46,6 +46,74 @@ perchè il float annulla il padding?
 
 /* fine del nav*/
 
+.container-bg {
+    width: 100vw;
+    height: 40em;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.jumbotron {
+    width: 60em;
+    height: 30em;
+    background: orange;
+    margin: auto;
+}
+
+.float {
+    float: left;
+}
+
+
+.title {
+    background: palegreen;
+    font-size: 200%;
+}
+
+/*      start coleft */
+
+.coleft {
+    width: 30%;
+}
+
+.subtitle {
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.trydropbox {
+    display: inline-block;
+    padding: 2%;
+    color: white;
+    background: blue;
+    border: 0;
+    margin-top: 10%;
+}
+
+.annulla {
+    display: block;
+    margin-top: 3%;
+    font-size: 90%;
+}
+
+.down{
+    display: inline-block;
+    margin-top: 10%;
+}
+
+/*      end coleft */
+
+
+/*      start colright */
+.colright {
+    width: 70%;
+}
+.jumbo {
+    margin-top: 10%;
+    width: 130%;
+    height: auto%;
+}
+/*      end colright */
 
 
 
