@@ -49,14 +49,13 @@ perchè il float annulla il padding?
 .container-bg {
     width: 100vw;
     height: 40em;
-    background-color: aquamarine;
+    background-color: #6495ED;
     margin: auto;
 }
 
 .jumbotron {
     width: 60em;
     height: 30em;
-    background: orange;
     margin: auto;
 }
 
@@ -66,7 +65,6 @@ perchè il float annulla il padding?
 
 
 .title {
-    background: palegreen;
     font-size: 200%;
 }
 
@@ -83,9 +81,9 @@ perchè il float annulla il padding?
 
 .trydropbox {
     display: inline-block;
+    background: blue;
     padding: 2%;
     color: white;
-    background: blue;
     border: 0;
     margin-top: 10%;
 }
