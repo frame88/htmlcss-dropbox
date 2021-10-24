@@ -33,10 +33,13 @@ li {
 
 .navigator-lis-left {
     float: left;
-}
+}  
+/*
+1 problema:
+perchè il float annulla il padding? 
+*/
 
 .logo {
-    background-color: aqua;
     float: left;
     vertical-align: center;
 }
