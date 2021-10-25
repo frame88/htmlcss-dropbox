@@ -142,8 +142,8 @@ hr {
 }
 
 .title-main {
-    font-size: 200%;
     display: inline-block;
+    font-size: 200%;
 }
 
 .mensile,.annuale {
@@ -153,9 +153,18 @@ hr {
 }
 
 .check {
-    display: inline-block;
     color: var(--blueasiwant);
 }
+
+.coleft-main,.colcenter,.colright-main {
+    width: 33%;
+    height: 80%;
+    border: 1px;
+}
+
+
+
+
 
 
 
