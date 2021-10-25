@@ -12,9 +12,9 @@ html {
 
 .container-nav {
     width: 100%;
-    height: 40%;
+    height: 10%;
     padding: 2em 1em;
-    background-color: red;
+    background-color: white;
     text-align: center;
 }
 
@@ -27,6 +27,11 @@ li {
     padding-left: 2em;
 }
 
+.inizia {
+    background: rgb(37, 37, 218);
+    color: white;
+    padding: 10% 30%;
+}
 .navigator-lis-right {
     float: right;
 }
@@ -49,7 +54,7 @@ perchè il float annulla il padding?
 .container-bg {
     width: 100vw;
     height: 40em;
-    background-color: #6495ED;
+    background-color: rgb(146, 167, 206);
     margin: auto;
 }
 
@@ -62,7 +67,6 @@ perchè il float annulla il padding?
 .float {
     float: left;
 }
-
 
 .title {
     font-size: 200%;
@@ -81,7 +85,7 @@ perchè il float annulla il padding?
 
 .trydropbox {
     display: inline-block;
-    background: blue;
+    background: rgb(37, 37, 218);
     padding: 2%;
     color: white;
     border: 0;
@@ -106,12 +110,17 @@ perchè il float annulla il padding?
 .colright {
     width: 70%;
 }
-.jumbo {
+.jumbopng {
     margin-top: 10%;
     width: 130%;
     height: auto%;
 }
 /*      end colright */
+/*      FINE HEADER     */
+
+
+
+
 
 
 
