@@ -42,13 +42,10 @@ li {
     color: white;
     padding: 10% 30%;
 }
-.navigator-lis-right {
-    float: right;
-}
 
-.navigator-lis-left {
-    float: left;
-}  
+.navigator-lis-right, .navigator-lis-left {
+    
+
 /*
 1 problema:
 perchè il float annulla il padding? 
