@@ -33,7 +33,7 @@ li {
 }
 
 .inizia {
-    background: rgb(37, 37, 218);
+    background: var(--blueasiwant);
     color: white;
     padding: 10% 30%;
 }
@@ -90,9 +90,9 @@ perchè il float annulla il padding?
     margin-top: 20%;
 }
 
-.trydropbox {
+.freetrial {
     display: inline-block;
-    background: rgb(37, 37, 218);
+    background: var(--blueasiwant);
     padding: 2%;
     color: white;
     border: 0;
@@ -128,8 +128,8 @@ perchè il float annulla il padding?
 
 /*      START MAIN      */
 main{
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 22%;
+    margin-left: 22%;
     margin-top: 15%;
 }
 
@@ -142,7 +142,6 @@ hr {
 }
 
 .title-main {
-    display: inline-block;
     font-size: 200%;
 }
 
@@ -156,11 +155,74 @@ hr {
     color: var(--blueasiwant);
 }
 
-.coleft-main,.colcenter,.colright-main {
-    width: 33%;
-    height: 80%;
-    border: 1px;
+.coleft-main,.colcenter,.colright-main,.footer-main {
+    border: 1px solid gray;
 }
+
+.coleft-main,.colcenter,.colright-main {
+    width: 30%;
+    padding-bottom: 15%;
+    margin-top: 7%;
+}
+
+.coleft-main,.colcenter {
+    margin-right: 20px;
+
+}
+
+.intestazione {
+    text-align: center;
+}
+
+.caratteristiche {
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.price,.period {
+    display: block;
+}
+
+.period {
+    color: gray;
+}
+
+.sectiontwo {
+    margin-top: 15%;
+}
+
+.sectionthree {
+    margin-top: 15%;
+    margin-bottom: 7%;
+}
+
+.freetrial30day {
+    background-color: var(--blueasiwant);
+    width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid lightgray;
+    color: white;
+    border: 0;
+}
+
+.sectionfour {
+    margin-top: 15%;
+}
+
+.salientpoint li {
+    padding: 0;
+}
+
+.vi {
+    color: lightseagreen;
+}
+
+
+
+
+
+
 
 
 
