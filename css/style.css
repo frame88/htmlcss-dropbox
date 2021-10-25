@@ -172,14 +172,13 @@ hr {
 }
 
 .coleft-main,.colcenter,.colright-main {
-    width: calc(100% / 3);
+    width: calc((100% / 3)-20px);
     padding-bottom: 15%;
     margin-top: 7%;
 }
 
 .coleft-main,.colcenter {
     margin-right: 20px;
-
 }
 
 .intestazione {
