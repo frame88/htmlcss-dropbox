@@ -278,6 +278,118 @@ main{
     margin-top: 15%;
 }
 
+.invoice {
+    margin-top: 4%;
+    line-height: 1em;
+    font-size: 1em;
+}
+
+.invoice input[type="radio"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 2px solid #999;
+    border-radius: 50%;
+    vertical-align: sub;
+}
+
+.invoice input[type="radio"]:checked {
+    opacity: 0;
+}
+
+.invoice label {
+    margin-right: 1em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.invoice input:checked + label::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    display: inline-block;
+    border: 4px solid var(--blueasiwant);
+    border-radius: 50%;
+}
+
+.invoice input::not(:checked) + label::before {
+    display: none;
+}
+/*__________________FINE CHECKBOX____________________*/
+
+/*________________START COL______________*/
+.plans .col{
+    width: calc((100% / 3) - 2.67%);
+    min-height: 970px;
+    margin-right: 4%;
+}
+
+.plans .plan-container {
+    border: 1px solid gray;
+}
+
+.plans header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 3em;
+}
+
+.plans header h2 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 3em;
+}
+
+/*_________FOOTER MAIN_________*/
+.box-border {
+    border: 1px solid gray;
+    width: 100%;
+    background: red;
+}
+
+.leftfront {
+    float: left;
+    width: 400px;
+}
+
+.rightfront {
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.team {
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.type, .nn, .descr {
+  margin-bottom: 20px;
+  display: block;
+  margin: 1em;
+}
+
+.btn {  
+        margin: 1em;
+        width:100%;
+        background-color: #0000ff;
+        color: white;
+}
+
+
+
+
+
+/*RIPARTO
+
 .float-left {
     float: left;
 }
@@ -375,25 +487,11 @@ main{
 
 
 
-/*
-.footer-main {
-    width: 95%;
-    margin-top: 7%;
-}
 
-.ufficio {
-    background: var(--blueasiwant);
-    color: white;
-    float: right;
-}
+
+
+
 */
-
-
-
-
-
-
-
 
 
 
